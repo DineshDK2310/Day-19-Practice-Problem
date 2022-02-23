@@ -15,7 +15,7 @@ public class RuleTwoPassword {
 		System.out.println("Enter the Password you want to match");
 		String number = sc.next();
 
-		RuleOnePassword fn = new RuleOnePassword();
+		RuleTwoPassword fn = new RuleTwoPassword();
 		boolean result = fn.mobileNumberValidate(number);
 		System.out.println(result);
 		sc.close();
